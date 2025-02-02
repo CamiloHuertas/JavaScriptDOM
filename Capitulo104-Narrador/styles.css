@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.ex {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ex textarea {
+  resize: none;
+}

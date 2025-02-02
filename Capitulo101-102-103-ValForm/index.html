@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Validacion Form</title>
+</head>
+<body>
+  
+  <h1>Validacion Formulario</h1>
+
+  <form class="contactForm">
+    <legend>Envianos tus comentarios</legend>
+    <input type="text" name="name" placeholder="Escribe tu nombre" title="Nombre solo acepta letras y blanks" pattern="^[A-Za-z\s]+$" data-required>
+    <input type="email" name="email" placeholder="Escribe tu correo" title="Email incorrecto" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" data-required>
+    <input type="text" name="subject" placeholder="Asunto" title="Asunto requerido" pattern="^[A-Za-z\s]+$" data-required>
+    <textarea name="comments" cols="50" rows="5" title="Escribe tus comentarios" placeholder="Escribe tus comentarios" data-required data-pattern="^.{1,255}$"></textarea>
+    <input type="submit" value="Enviar">
+    <div class="formLoader none">
+      <img src="assets/loader.gif" alt="Cargando">
+    </div>
+    <div class="contactFormResponse none">
+      <p>Los datos han sido enviados</p>
+    </div>
+  </form>
+
+
+  <script src="app.js"></script>
+</body>
+</html>

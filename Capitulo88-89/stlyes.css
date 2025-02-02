@@ -1,0 +1,79 @@
+.topBar {
+  width: 100%;
+  height: 50px;
+  background: #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBar h1 {
+  color: #fff;
+}
+
+.contentBox {
+  margin-top: 20px;
+  border: 5px solid #000;
+  background: #000;
+  color: #fff;
+  text-align: justify;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.aside {
+  margin-top: 20px;
+  background: #000;
+  color: #fff;
+
+  display: flex;
+}
+
+.asideTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40%;
+}
+
+.asideContent {
+  width: 60%;
+}
+
+.themeBox {
+  display: flex;
+  gap: 20px;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.themeBtn {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.lightMode {
+  background: #fff;
+  color: #000;
+}
+
+.darkMode {
+  background: #000;
+  color: #fff;
+}

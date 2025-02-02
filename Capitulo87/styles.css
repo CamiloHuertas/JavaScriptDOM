@@ -1,0 +1,41 @@
+.topBar {
+  width: 100%;
+  height: 50px;
+  background: darkblue;
+}
+
+.text {
+  width: 50%;
+  margin: auto;
+}
+
+
+.scrollBox {
+  width: 50px;
+  height: 50px;
+  background: darkblue;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollBtn {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.btnHidden {
+  opacity: 0;
+  visibility: none;
+}
+
+.btnActive {
+  opacity: 1;
+  visibility: visible;
+}

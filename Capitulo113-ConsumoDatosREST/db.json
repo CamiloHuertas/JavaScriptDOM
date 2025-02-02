@@ -1,0 +1,56 @@
+{
+  "santos": [
+    {
+      "nombre": "Shiryuuuuu",
+      "constelacion": "Dragon",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "nombre": "Huyoga",
+      "constelacion": "Cisne"
+    },
+    {
+      "id": "4",
+      "nombre": "Shun",
+      "constelacion": "Andromeda"
+    },
+    {
+      "id": "5",
+      "nombre": "Ikki",
+      "constelacion": "Fenix"
+    },
+    {
+      "id": "5caa",
+      "nombre": "Camilo",
+      "constelacion": "Luna"
+    },
+    {
+      "nombre": "Omar",
+      "constelacion": "el mas joya",
+      "id": "03e2"
+    }
+  ],
+  "dioses": [
+    {
+      "id": "1",
+      "nombre": "Athena",
+      "de": "Tierra"
+    },
+    {
+      "id": "2",
+      "nombre": "Poseidon",
+      "de": "Mar"
+    },
+    {
+      "id": "3",
+      "nombre": "Hades",
+      "de": "Inframundo"
+    },
+    {
+      "id": "4",
+      "nombre": "Zeus",
+      "de": "Cielo"
+    }
+  ]
+}

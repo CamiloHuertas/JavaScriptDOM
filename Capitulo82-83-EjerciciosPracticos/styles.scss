@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.seccionReloj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: monospace;
+}
+
+button {
+  margin: 10px 5px;
+}

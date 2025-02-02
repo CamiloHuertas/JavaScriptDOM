@@ -1,0 +1,51 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.texts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aside {
+  width: 20%;
+  position: fixed; /* Fija el elemento en su posición */
+  right: 0; /* Alineado al lado derecho */
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #f4f4f4; /* Añade un fondo si deseas distinguirlo */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Opcional: agrega un efecto de sombra */
+  overflow-y: auto; /* Para manejar contenido que pueda exceder la altura del aside */
+}
+
+.asideDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.asideDiv.active {
+  background: #ccc;
+}
+
+.asideDiv a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.asideDiv:hover {
+  background: #ccc;
+}
